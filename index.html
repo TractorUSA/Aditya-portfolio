@@ -1,1 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Aditya Sable - Digital Portfolio</title>
+    <link rel="stylesheet" href="html.css">
+</head>
+<body>
+    <div class="digital-container">
+        <!-- Floating Nav -->
+        <nav class="floating-nav">
+            <div class="nav-item active" data-page="home">Home</div>
+            <div class="nav-item" data-page="about">About</div>
+            <div class="nav-item" data-page="skills">Skills</div>
+            <div class="nav-item" data-page="projects">Projects</div>
+            <div class="nav-item" data-page="contact">Contact</div>
+        </nav>
 
+        <!-- Main Content -->
+        <main class="digital-main">
+            <!-- Hero Section -->
+            <section id="home" class="page active">
+                <div class="hero-grid">
+                    <div class="hero-text">
+                        <h1 class="digital-title">
+                            <span>Aditya</span>
+                            <span class="title-subtitle">Shalik Sable</span>
+                        </h1>
+                        <p class="hero-subtitle">First-Year Software Engineering Student</p>
+                        <div class="tech-badges">
+                            <span>Frontend</span>
+                            <span>Backend</span>
+                            <span>AI/ML</span>
+                            <span>Fullstack</span>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="hexagon-frame">
+                            <img src="photo.jpg" alt="Akshay Pande" class="profile-hex">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="page">
+                <div class="content-card">
+                    <h2>About Me</h2>
+                    <p>I'm a passionate first-year software engineering student at <strong>MIT Academy of Engineering</strong>, originally from <em>Tadhoba, Maharashtra</em>. I love building innovative web applications, exploring AI/ML, and creating pixel-perfect user experiences.</p>
+                </div>
+            </section>
+
+            <!-- Skills Preview Section -->
+            <section id="skills" class="page">
+                <div style="text-align: center; margin-bottom: 60px;">
+                    <h2 style="font-size: 3rem; color: #000000; display: inline-block; background: #ffffff; padding: 20px 40px; border-radius: 25px; border: 1px solid #000000;">
+                        My Tech Stack
+                    </h2>
+                </div>
+                <div class="skills-preview">
+                    <div class="skill-preview">
+                        <span style="font-size: 3rem; display: block; margin-bottom: 20px;">⚛️</span>
+                        <h3>Frontend</h3>
+                        <p>HTML/CSS/JS</p>
+                    </div>
+                    <div class="skill-preview">
+                        <span style="font-size: 3rem; display: block; margin-bottom: 20px;">🐍</span>
+                        <h3>Backend</h3>
+                        <p>Python<br>Java</p>
+                    </div>
+                    <div class="skill-preview">
+                        <span style="font-size: 3rem; display: block; margin-bottom: 20px;">🤖</span>
+                        <h3>AIML</h3>
+                        <p>Linux<br>Data Visualization</p>
+                    </div>
+                    <div class="skill-preview">
+                        <span style="font-size: 3rem; display: block; margin-bottom: 20px;">🗄️</span>
+                        <h3>Database & Tools</h3>
+                        <p>MySQL<br>Git & Figma</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Preview -->
+            <section id="projects" class="page">
+                <div style="text-align: center; margin-bottom: 60px;">
+                    <h2 style="font-size: 3rem; color: #000000; display: inline-block; background: #ffffff; padding: 20px 40px; border-radius: 25px; border: 1px solid #000000;">
+                        Featured Projects
+                    </h2>
+                </div>
+                <div class="projects-preview">
+                    <div class="project-card">
+                        <span style="font-size: 3rem; display: block; margin-bottom: 20px;">🖥️</span>
+                        <h3>DT Project</h3>
+                        <p>Organic Farming Software - Comprehensive web platform helping farmers manage sustainable crop cultivation.</p>
+                        <div style="margin-top: 20px;">
+                            <span style="background: #000000; color: #ffffff; padding: 8px 16px; border-radius: 20px; font-size: 0.8rem; margin-right: 10px;">HTML/CSS/JS</span>
+                            <span style="background: #000000; color: #ffffff; padding: 8px 16px; border-radius: 20px; font-size: 0.8rem;">Python</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <span style="font-size: 3rem; display: block; margin-bottom: 20px;">🌞</span>
+                        <h3>IoT Project</h3>
+                        <p>Solar Power Smart Street Light - Intelligent IoT system with automatic brightness control and motion detection.</p>
+                        <div style="margin-top: 20px;">
+                            <span style="background: #000000; color: #ffffff; padding: 8px 16px; border-radius: 20px; font-size: 0.8rem; margin-right: 10px;">IoT</span>
+                            <span style="background: #000000; color: #ffffff; padding: 8px 16px; border-radius: 20px; font-size: 0.8rem; margin-right: 10px;">Arduino</span>
+                            <span style="background: #000000; color: #ffffff; padding: 8px 16px; border-radius: 20px; font-size: 0.8rem;">Sensors</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="page">
+                <div style="text-align: center; margin-bottom: 60px;">
+                    <h2 style="font-size: 3rem; color: #000000; display: inline-block; background: #ffffff; padding: 20px 40px; border-radius: 25px; border: 1px solid #000000;">
+                        Get In Touch
+                    </h2>
+                </div>
+                <div class="contact-digital">
+                    <div class="contact-item">
+                        <span style="font-size: 2.5rem">📱</span>
+                        <div>
+                            <div style="font-size: 0.9rem; opacity: 0.8; margin-bottom: 5px;">Mobile Number</div>
+                            <div style="font-size: 1.5rem; font-weight: 700;">9359777814</div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span style="font-size: 2rem">📧</span>
+                        <div>
+                            <div style="font-size: 0.9rem; opacity: 0.8; margin-bottom: 5px;">Personal Email</div>
+                            <div style="font-size: 1.3rem; font-weight: 600;">adityasable2007@gmail.com</div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span style="font-size: 2.2rem">🏫</span>
+                        <div>
+                            <div style="font-size: 0.9rem; opacity: 0.8; margin-bottom: 5px;">College Email</div>
+                            <div style="font-size: 1.2rem; font-weight: 600;">202501040281@mitaoe.ac.in</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Social Icons -->
+        <div class="social-floating">
+            <a href="#" class="social-icon" title="LinkedIn">💼</a>
+            <a href="#" class="social-icon" title="GitHub">🐙</a>
+            <a href="#" class="social-icon" title="Twitter">🐦</a>
+        </div>
+    </div>
+
+    <script>
+        // Smooth page transitions
+        document.querySelectorAll('.nav-item').forEach(item => {
+            item.addEventListener('click', (e) => {
+                e.preventDefault();
+                const page = item.dataset.page;
+                
+                // Update nav active state
+                document.querySelector('.nav-item.active').classList.remove('active');
+                item.classList.add('active');
+                
+                // Switch pages
+                document.querySelector('.page.active').classList.remove('active');
+                document.getElementById(page).classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
